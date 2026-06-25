@@ -1,0 +1,28 @@
+{
+  "name": "kongchuang-server",
+  "version": "1.0.0",
+  "description": "济南控创电子工控官网 Koa 后端",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.3",
+    "dotenv": "^16.4.5",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.1",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "@koa/cors": "^5.0.0",
+    "mysql2": "^3.9.7",
+    "sequelize": "^5.22.5",
+    "svg-captcha": "^1.4.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
